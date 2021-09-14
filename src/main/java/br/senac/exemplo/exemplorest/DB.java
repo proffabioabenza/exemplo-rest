@@ -10,7 +10,7 @@ public class DB {
         Class.forName("com.mysql.cj.jdbc.Driver");
         return DriverManager.getConnection(
         		"jdbc:mysql://localhost:3306/exemplo_pi",
-        		"root",
+        		"roota",
         		"%2$TxPUtspsWbbSA");
     }
 }
